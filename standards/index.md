@@ -5,12 +5,14 @@ type: index
 ---
 
 {% assign standards = site.pages | where:'type','standard' | sort:"name" %}
+<ul>
 {% for standard in standards %}
-{{ standard.title }}
-{{ standard.sub_categories }}
-{{ standard.date_initiated }}
-{{ standard.founded_by }}
-{{ standard.current_url }}
-{{ standard.goals }}
-{{ standard.status}}
+<h2>{{ standard.title }}</h2>
+  <li>{{ standard.sub_categories }}</li> 
+  <li>{{ standard.date_initiated }}</li>
+  <li>{{ standard.founded_by }}</li>
+  <li>{{ standard.current_url }}</li>
+  <li>{{ standard.goals }}</li>
+  <li>{{ standard.status}}</li>
 {% endfor %}
+<ul>
