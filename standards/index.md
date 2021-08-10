@@ -25,6 +25,7 @@ type: index
   
   <dt>Status</dt>
   <dd>{{ standard.status}}</dd>
+  <hr />
 {% endfor %}
 <dl>
-  <hr />
+
