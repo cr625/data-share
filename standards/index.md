@@ -9,7 +9,7 @@ type: index
 <h2>{{ standard.title }}</h2>
   <dt>Sub-categories</dt>
   {% for subcategory standard.sub_categories %}
-  <dd>{{ standard.sub_categories }}</dd> 
+  <dd>{{ subcategory }}</dd> 
   {% endfor %}
   <dt>Date Initiated</dt>
   <dd>{{ standard.date_initiated }}</dd>
