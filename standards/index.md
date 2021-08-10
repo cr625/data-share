@@ -8,7 +8,7 @@ type: index
 {% for standard in standards %}
 <h2>{{ standard.title }}</h2>
   <dt>Sub-categories</dt>
-  {% for subcategory standard.sub_categories %}
+  {% for subcategory in standard.sub_categories %}
   <dd>{{ subcategory }}</dd> 
   {% endfor %}
   <dt>Date Initiated</dt>
