@@ -11,8 +11,8 @@ type: index
   {% for subcategory in standard.sub_categories %}
   <dd>{{ subcategory }}</dd> 
   {% endfor %}
-  <dt>Date Initiated</dt>
-  <dd>{{ standard.date_initiated }}</dd>
+  <dt>Started</dt>
+  <dd>{{ standard.started }}</dd>
   
   <dt>Founded by</dt>
   <dd>{{ standard.founded_by }}</dd>
